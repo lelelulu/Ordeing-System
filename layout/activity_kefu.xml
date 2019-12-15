@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服联系电话:"
+        android:id="@+id/textView12"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4001_823_823"
+        android:id="@+id/textView13"
+        android:textSize="25dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客服姓名："
+        android:id="@+id/textView14"
+        android:textSize="35dp"
+        android:textColor="#030303"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小雨@123"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:textColor="#030303" />
+</LinearLayout>

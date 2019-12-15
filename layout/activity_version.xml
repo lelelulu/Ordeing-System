@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前版本号："
+        android:id="@+id/textView16"
+        android:textSize="30dp"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.1.2"
+        android:id="@+id/textView23"
+        android:textSize="35dp"
+        android:textColor="#030303"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最新版本号："
+        android:id="@+id/textView24"
+        android:textSize="30dp"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.1.2"
+        android:id="@+id/textView25"
+        android:textSize="35dp"
+        android:textColor="#030303"
+        android:textStyle="italic" />
+</LinearLayout>

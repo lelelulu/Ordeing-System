@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="您的订单详情如下："
+            android:id="@+id/textView31"
+            android:textColor="#030303"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜名"
+            android:id="@+id/textView39"
+            android:textSize="25dp"
+            android:textColor="#030303"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="水煮鱼："
+            android:id="@+id/textView27"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="麻婆豆腐："
+            android:id="@+id/textView26"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="酸菜鱼："
+            android:id="@+id/textView28"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="辣子鸡："
+            android:id="@+id/textView29"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="毛血旺："
+            android:id="@+id/textView30"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总共消费（元）："
+            android:id="@+id/textView37"
+            android:textSize="25dp"
+            android:textColor="#030303"
+            android:layout_marginTop="30dp"
+            android:singleLine="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预计到达时间："
+            android:id="@+id/textView34"
+            android:textSize="25dp"
+            android:textColor="#030303"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击返回首页"
+            android:id="@+id/back"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="份数"
+            android:id="@+id/textView40"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/food"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/food2"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:id="@+id/food3"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/food4"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/food5"
+            android:textSize="25dp"
+            android:textColor="#030303" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/total"
+            android:textSize="30dp"
+            android:textColor="#030303"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15:30"
+            android:id="@+id/time"
+            android:textSize="30dp"
+            android:layout_marginTop="13dp"
+            android:textColor="#030303" />
+
+    </LinearLayout>
+
+</LinearLayout>
